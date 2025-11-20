@@ -1,4 +1,4 @@
-package java_inheritance;
+package sample_java_inheritance;
 
 class Animal {
     void eat() {

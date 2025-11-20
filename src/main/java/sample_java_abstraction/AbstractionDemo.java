@@ -1,4 +1,4 @@
-package java_abstraction;
+package sample_java_abstraction;
 
 abstract class Vehicle {
     abstract void start();

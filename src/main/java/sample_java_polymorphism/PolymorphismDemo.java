@@ -1,4 +1,4 @@
-package java_polymorphism;
+package sample_java_polymorphism;
 
 class Shape {
     void draw() {

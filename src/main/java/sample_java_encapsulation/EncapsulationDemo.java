@@ -1,4 +1,4 @@
-package java_encapsulation;
+package sample_java_encapsulation;
 
 class BankAccount {
     private int balance = 0;

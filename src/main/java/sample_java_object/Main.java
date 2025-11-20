@@ -1,4 +1,4 @@
-package java_object;
+package sample_java_object;
 
 class Car {
     String color;          // data
