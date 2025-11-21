@@ -6,3 +6,11 @@ Page Object konusunda örnekler gerekebilir. Yapıyı ona göre uyarla...
 21'inde artık başlarız hayırlısıyla...
 
 Good morning!
+
+
+
+
+https://the-internet.herokuapp.com/
+
+
+21.11.25 15:30 - https://www.linkedin.com/learning/learning-testng/what-is-testng Let's refresh!
