@@ -10,6 +10,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.time.Duration;
+
 
 public class SelFinTest_Behavior_Confirmation {
 
@@ -35,7 +37,7 @@ public class SelFinTest_Behavior_Confirmation {
         driver.findElement(By.id("datepicker")).sendKeys(new CharSequence[]{"05/28/2019"});
         driver.findElement(By.cssSelector(".btn.btn-lg.btn-primary")).click();
 
-        WebDriverWait wait = new WebDriverWait(driver, 10L);
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
         WebElement alert = (WebElement)wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("alert")));
         String alertText = alert.getText();
         Assert.assertEquals(alertText, "The form was successfully submitted!");

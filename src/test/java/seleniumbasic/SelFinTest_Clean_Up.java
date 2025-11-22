@@ -8,6 +8,9 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
+
+import java.time.Duration;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class SelFinTest_Clean_Up {
@@ -53,7 +56,7 @@ public class SelFinTest_Clean_Up {
 
     public static void waitForAlertBanner(WebDriver driver)
     {
-        WebDriverWait wait = new WebDriverWait(driver, 10);
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
         wait.until((ExpectedConditions.visibilityOfElementLocated(By.className("alert"))));
     }
 

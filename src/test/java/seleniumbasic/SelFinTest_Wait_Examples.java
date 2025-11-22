@@ -9,6 +9,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
+import java.time.Duration;
+
 public class SelFinTest_Wait_Examples {
 
 
@@ -36,7 +38,7 @@ public class SelFinTest_Wait_Examples {
 
         // WAIT COMMAND HERE // Explicit Waits
 
-       WebDriverWait wait = new WebDriverWait(driver, 10) ;
+         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
        WebElement autocompleteResult = wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("pac-item")));
        autocompleteResult.click();
 
