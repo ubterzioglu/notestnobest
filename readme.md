@@ -14,3 +14,4 @@ https://the-internet.herokuapp.com/
 
 
 21.11.25 15:30 - https://www.linkedin.com/learning/learning-testng/what-is-testng Let's refresh!
+22.11.25 10:00 - Az kaldı ama başaracağız.
