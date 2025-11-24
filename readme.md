@@ -17,3 +17,5 @@ https://the-internet.herokuapp.com/
 22.11.25 10:00 - Az kaldı ama başaracağız.
 22.11.25 12:30 - TestNG'de sıralamayı öğrendik. Gayet güzel.
 22.11.25 23:45 - Yarın daha çok abanmak lazım.
+23.11.25 00:00 - Gençler Pazar IG ile geçti.
+24.11.25 22:30 - Güzel ama guidelar hazırladım yarın bakacağım! We will do it!
