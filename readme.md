@@ -26,3 +26,5 @@ https://the-internet.herokuapp.com/
 24.11.25 22:30 - Güzel ama guidelar hazırladım yarın bakacağım! We will do it!
 
 27.11.25 16:00 - Yeni projelerle uğraşıyoruz. Boş durmuyoruz...
+
+03.12.25 15:00 - İş görüşmeleri, Instagram, Personal Page derken... Geri döndüm.

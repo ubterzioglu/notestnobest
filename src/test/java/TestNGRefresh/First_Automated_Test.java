@@ -2,6 +2,7 @@ package TestNGRefresh;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
@@ -32,12 +33,15 @@ public class First_Automated_Test {
     @Test
             public void testTableSortAndSearch(){
         driver.findElement(By.linkText("Table Sort & Search")).click();
-      //  driver.findElement(By.xpath("/html/body/div[1]/div/section[2]/div/div/div/div/div[2]/label/input")).sendKeys("D.Rios");
-      //  driver.findElement(By.xpath("//div[@id=\"example_filter\"]//input[@type=\"search\"]");
-        driver.findElement(By.xpath("//div[@id='example_filter']//input[@type='search']"));
+       driver.findElement(By.xpath("//div[@id='example_filter']//input[@type='search']")).sendKeys("A.Ramos");
+    }
 
+        @Test
+public void testBootstrapDatePicker(){
+            driver.findElement(By.linkText("Bootstrap Date Picker")).click();
+            driver.findElement(By.id("birthday")).sendKeys("06.07" + Keys.TAB + "2008");
 
-
+        }
 
     }
 
@@ -45,4 +49,4 @@ public class First_Automated_Test {
 
 
 
-}
+
